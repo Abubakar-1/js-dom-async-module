@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  color: gray;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  color: green;
+}
+
+.check-icon {
+  visibility: hidden;
+  font-size: 18px;
+}
+
+.completed .check-icon {
+  visibility: visible;
+}

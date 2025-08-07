@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo Interactive</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Interactive To Do List</h1>
+    <ul id="todoList">
+      <li onclick="toggleComplete(this)">
+        Sweep my room <span class="check-icon">✅</span>
+      </li>
+      <li onclick="toggleComplete(this)">
+        Recite the Qur'an <span class="check-icon">✅</span>
+      </li>
+      <li onclick="toggleComplete(this)">
+        Study the history of Nigeria <span class="check-icon">✅</span>
+      </li>
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
